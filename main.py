@@ -187,7 +187,7 @@ plt.ylabel("mean absolute error")
 plt.title("model error under noise and distribution shift")
 plt.legend()
 
-plt.savefig("model_error.png")
+plt.savefig("results/model_error.png")
 plt.close()
 
 
@@ -222,10 +222,10 @@ plt.ylabel("error")
 plt.title("uncertainty vs actual error")
 plt.legend()
 
-plt.savefig("uncertainty.png")
+plt.savefig("results/uncertainty.png")
 plt.close()
 
 
 print("\nfinished")
-print("saved: model_error.png")
-print("saved: uncertainty.png")
+print("saved: results/model_error.png")
+print("saved: results/uncertainty.png")
